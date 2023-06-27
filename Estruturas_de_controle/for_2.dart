@@ -1,0 +1,22 @@
+main() {
+  var notas = [8.9, 9.3, 7.8, 6.9, 9.1];
+
+  for (var nota in notas) {
+    print("O valor da nota é $nota.");
+  }
+
+  // Matriz
+  var coordenadas = [
+    [1, 3],
+    [9, 1],
+    [19, 23],
+    [2, 14],
+  ];
+
+  // Percorrendo uma lista dentro da outra
+  for (var coordenada in coordenadas) {
+    for (var ponto in coordenada) {
+      print("Valor do ponto é $ponto");
+    }
+  }
+}
