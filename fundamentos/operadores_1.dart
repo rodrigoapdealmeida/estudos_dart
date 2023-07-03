@@ -18,6 +18,7 @@ main() {
   bool ehCaro = true;
 
   print(ehFragil && ehCaro); // AND -> E
+  // ignore: dead_code
   print(ehFragil || ehCaro); // OR -> OU
   print(ehFragil ^ ehCaro); // XOR -> OU exclusivo
   print(!ehFragil); // NOT -> Unário/Prefix
